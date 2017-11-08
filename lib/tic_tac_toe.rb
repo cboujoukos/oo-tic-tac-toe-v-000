@@ -107,9 +107,8 @@ def play
     else
       puts "Cat's Game!"
     end
-    turn
-    play
-  end
+  turn
+  play
 end
 
 end
