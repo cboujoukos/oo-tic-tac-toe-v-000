@@ -32,7 +32,7 @@ def move(position, char)
 end
 
 def position_taken?(index)
-  @board[index] == " " || @board[index] == "" || @board[index] == nil
+  @board[index] != " " || @board[index] != "" || @board[index] != nil
 end
 
 end
