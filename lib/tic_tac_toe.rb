@@ -95,8 +95,8 @@ def over?
 end
 
 def winner
-  won?
-  @board[win_index_1]
+  if won?
+    return @board[win_combo][0]
 end
 
 end
