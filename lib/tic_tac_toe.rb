@@ -96,7 +96,7 @@ end
 
 def winner
   won?
-  win_combo[0]
+  @board[win_index_1]
 end
 
 end
