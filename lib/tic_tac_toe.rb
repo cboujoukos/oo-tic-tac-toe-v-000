@@ -94,4 +94,9 @@ def over?
   won? || draw?
 end
 
+def winner
+  won?
+  win_combo[0]
+end
+
 end
