@@ -100,4 +100,15 @@ def winner
   end
 end
 
+def play
+  if over?
+    if won?
+      puts "Congratulations #{winner}!"
+    else
+      puts "Cat's Game!"
+    end
+    turn
+  end
+end
+
 end
