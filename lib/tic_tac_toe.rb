@@ -50,10 +50,20 @@ def turn_count
 end
 
 def current_player
-  if turn_count % 2 == 0 
+  if turn_count % 2 == 0
     return "X"
   else
     return "O"
+  end
+end
+
+def turn(input)
+  input = gets.strip
+  index = input_to_index(input)
+  if valid_move?(index)
+    move(index)
+  else
+    turn(input)
   end
 end
 
