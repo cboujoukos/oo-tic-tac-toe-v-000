@@ -108,6 +108,7 @@ def play
       puts "Cat's Game!"
     end
     turn
+    play
   end
 end
 
