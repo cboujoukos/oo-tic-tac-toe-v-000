@@ -57,7 +57,7 @@ def current_player
   end
 end
 
-def turn(input)
+def turn
   puts "Please enter 1-9:"
   display_board
   input = gets.strip
