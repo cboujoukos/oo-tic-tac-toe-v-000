@@ -84,5 +84,6 @@ end
 
 def full?
   @board.none?{|space| (space == "" || space == " " || space == nil)}
+end
 
 end
