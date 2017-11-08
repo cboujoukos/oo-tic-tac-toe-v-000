@@ -96,7 +96,7 @@ end
 
 def winner
   if won?
-    return @board[win_combo][0]
+    return @board[won?[0]]
   end
 end
 
